@@ -1234,7 +1234,7 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-5.0.5.tgz#0cf54ae8f76a025a8df015acd958192fb29a5e9a"
   integrity sha512-1wYCScLBgVzSrXWDNg6KqZPCTtrbduDIxGGx3OXfGXQgWusFC8vdgKL6XLycAgsv3FRx8jardWQGYnEHUCccQQ==
 
-"@functional-abstraction/operator@^1.0.4":
+"@functional-abstraction/operator@1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@functional-abstraction/operator/-/operator-1.0.4.tgz#6bcc9ef381fd8897f8fa2f10a05df208558e9519"
   integrity sha512-YtWuVroQ4l9YXSu8E0PqVguI/5jf2O34lMa3KILPT7zAsCWrC+2hGDHd58FJu5FIej8V5cRgRvczSsf/vmTXNw==
@@ -1249,12 +1249,12 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/consume/-/consume-0.0.1.tgz#a37a96aba64caf2c64b517b1d2529a5864482df2"
   integrity sha512-z4a8wR6JciJTrV85itsNw8pcXlq44ktWmESp66em0gjAqSnaYtKyGwDFp2FdTuVa1+p+mO+WoC0XmSVMFYc3jQ==
 
-"@iterable-iterator/count@^0.0.1":
+"@iterable-iterator/count@0.0.1", "@iterable-iterator/count@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/count/-/count-0.0.1.tgz#b3224aa6df617a285b175df1cf08ab7842edbbea"
   integrity sha512-BWaGS9sHe2VgzzteyZIc+fNPtPymeLt3gK0V2d618u+tAzkKidNLp40R2pblHu4hgWWiks8vg4srJS8NZaK95w==
 
-"@iterable-iterator/cycle@^0.0.1":
+"@iterable-iterator/cycle@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/cycle/-/cycle-0.0.1.tgz#e500ee5a7861d97c9bf25a875b0311e8e7efad0c"
   integrity sha512-Ow8OZkB4SwrMpRPcSByrKjs74O0XnKjtRwWAuLqYW80v8bxeeMFIA+eD/wzkwAqZuqDTNfPD8CnC+J2aY23YUA==
@@ -1264,17 +1264,17 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/iter/-/iter-0.0.2.tgz#7129988de2071ffb747632bd0190c0db579a5b69"
   integrity sha512-+q2BxI+awes71qm4M5zLXaJK7GUy1Tbt5K7YKTU3Yl8DgCdQxeHBbkAIxXAv49BoS2eLx5cLXHdpX6ybzvA2XQ==
 
-"@iterable-iterator/list@^0.0.2":
+"@iterable-iterator/list@0.0.2", "@iterable-iterator/list@^0.0.2":
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-0.0.2.tgz#6289761d3ada6bb88f0c92683367ea960f310869"
   integrity sha512-103Wwqx0x8neIFjm0GVR7cmEcv29Eg7F4lX72sr9L6FzMH9lp50ejfroAdbdMT37TWq2KVNo1eEWXtFo9hBybw==
 
-"@iterable-iterator/map@^0.0.1":
+"@iterable-iterator/map@0.0.1", "@iterable-iterator/map@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/map/-/map-0.0.1.tgz#13dd222dd384d934741d96197c0d963c5678760d"
   integrity sha512-uB9ndHoHIditj/0+WiyZou2NqEi7yHESkL0pSC6LfVRPQcwfRUrtzd9+P002Zu8/bdm7xSYZCgTl6SIpjJxORw==
 
-"@iterable-iterator/next@^1.0.0":
+"@iterable-iterator/next@1.0.0", "@iterable-iterator/next@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.0.tgz#6e66e6c2423e390ac806bfdc778b918d05c866f5"
   integrity sha512-ml0SPDbw9N3S8++yx/Gqd0o9CuY4sPUUGlhJMhCQC2sSL6RpXmNaBLvGhCJTckelSzyaTVpe/yUlS/iwJNwxnQ==
@@ -1286,12 +1286,12 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/range/-/range-1.0.0.tgz#5b3255710e3e0d174a82e38024dc2af3c1aeee25"
   integrity sha512-rFgziHtzWs/Zl1c5SfkAbUZzXvqvyeMtjsrwdkvXFQ1FCCXmzFjaMOKpr++wFuoV83XzZuiJ6lyHNEd3CSIyTg==
 
-"@iterable-iterator/repeat@^0.0.1":
+"@iterable-iterator/repeat@0.0.1", "@iterable-iterator/repeat@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/repeat/-/repeat-0.0.1.tgz#3475728b7feb093624a04f6e7abd4103f10c30c0"
   integrity sha512-WNuPt8H+p70TPG/CntJDcCHBPiYUA1SOVE/V45C0a9T/hr0ThRvn/Q+5diDaU3U3iJUH/Tqua+7S6ad0mS5Dzw==
 
-"@iterable-iterator/slice@^0.0.1":
+"@iterable-iterator/slice@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/slice/-/slice-0.0.1.tgz#62a8e15435714787659563ad0bc4138e52f5baf2"
   integrity sha512-8U0wLGf3lgZY/MSvmkCwjVF6mivwp3MEY6gCBbD+I6qvJk2Xy7PAWK22lcg69kQKoqGc2HviGeLzDfMh1DNpGw==
@@ -1300,7 +1300,7 @@
     "@iterable-iterator/consume" "^0.0.1"
     "@iterable-iterator/iter" "^0.0.2"
 
-"@iterable-iterator/zip@^0.0.1":
+"@iterable-iterator/zip@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/zip/-/zip-0.0.1.tgz#ed982611320cd5ae1b1873f45d8436d29344b5f4"
   integrity sha512-ipni2e3PCph8qFtblkG8VO9Pd+yYCmy3JwtMhiKJxsIV6sYACQ2JvH3HadRJqMEgaNrb3W8GTQiSWtps+JWkGQ==
