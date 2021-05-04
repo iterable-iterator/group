@@ -4,12 +4,15 @@
 Iterable items grouping for JavaScript.
 See [docs](https://iterable-iterator.github.io/group/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {group} from '@iterable-iterator/group';
+import {identity} from '@functional-abstraction/operator';
+group( identity , "AAAABBBCCAABB" ) ; // [ A AAAA ] [ B BBB ] [ C CC ] [ A AA ] [ B BB ]
+```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/group.svg)](https://raw.githubusercontent.com/iterable-iterator/group/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/group.svg)](https://www.npmjs.org/package/@iterable-iterator/group)

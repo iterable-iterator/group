@@ -1,0 +1,41 @@
+import {iter} from '@iterable-iterator/iter';
+import {range} from '@iterable-iterator/range';
+
+/**
+ * Yields elements of the input iterable by grouping them into tuples of a
+ * given size.
+ *
+ * @param {Iterable} iterable - The input iterable.
+ * @param {Number} n - The size of the yielded tuples.
+ * @returns {Iterator}
+ */
+export default function* by(iterable, n) {
+	const iterator = iter(iterable);
+
+	while (true) {
+		const tuple = [];
+
+		for (const i of range(n)) {
+			const current = iterator.next();
+
+			if (current.done) {
+				if (i === 0) {
+					return;
+				}
+
+				// eslint-disable-next-line no-unused-vars
+				for (const j of range(n - i)) {
+					tuple.push(undefined);
+				}
+
+				yield tuple;
+
+				return;
+			}
+
+			tuple.push(current.value);
+		}
+
+		yield tuple;
+	}
+}
