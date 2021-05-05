@@ -1226,10 +1226,10 @@
     "@iterable-iterator/consume" "^0.0.1"
     "@iterable-iterator/iter" "^0.0.2"
 
-"@iterable-iterator/zip@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/zip/-/zip-0.0.1.tgz#ed982611320cd5ae1b1873f45d8436d29344b5f4"
-  integrity sha512-ipni2e3PCph8qFtblkG8VO9Pd+yYCmy3JwtMhiKJxsIV6sYACQ2JvH3HadRJqMEgaNrb3W8GTQiSWtps+JWkGQ==
+"@iterable-iterator/zip@0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/zip/-/zip-0.0.2.tgz#8462cd4eb76d32c901bc9ff3323df5e82c1d1dff"
+  integrity sha512-dtWZUs4ePqp1NQ6S/UkFfNNRTr814TiBvP6wQmGvhhLX5EYzoVz/T5zA0aZCzkvBbhJ2pYYPBLRTs1P2Oi870g==
   dependencies:
     "@iterable-iterator/count" "^0.0.1"
     "@iterable-iterator/iter" "^0.0.2"
