@@ -1200,7 +1200,14 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/map/-/map-0.0.1.tgz#13dd222dd384d934741d96197c0d963c5678760d"
   integrity sha512-uB9ndHoHIditj/0+WiyZou2NqEi7yHESkL0pSC6LfVRPQcwfRUrtzd9+P002Zu8/bdm7xSYZCgTl6SIpjJxORw==
 
-"@iterable-iterator/next@1.0.0", "@iterable-iterator/next@^1.0.0":
+"@iterable-iterator/next@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.1.tgz#ed7fb7b6bf44c3bd77dd01e2c5a0a03830b9142c"
+  integrity sha512-igrAA2O3qCGHQbEjktXeiYxopq5RvaNhzooivyuq7vmE1U2tRmMyP8e5+LaNbrVLZH1jGWcWIATsNo8Q3D/I5w==
+  dependencies:
+    "@failure-abstraction/error" "^5.0.5"
+
+"@iterable-iterator/next@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.0.tgz#6e66e6c2423e390ac806bfdc778b918d05c866f5"
   integrity sha512-ml0SPDbw9N3S8++yx/Gqd0o9CuY4sPUUGlhJMhCQC2sSL6RpXmNaBLvGhCJTckelSzyaTVpe/yUlS/iwJNwxnQ==
