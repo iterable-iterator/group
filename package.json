@@ -74,7 +74,7 @@
     "@iterable-iterator/cycle": "0.0.1",
     "@iterable-iterator/list": "0.0.2",
     "@iterable-iterator/map": "0.1.0",
-    "@iterable-iterator/next": "1.0.0",
+    "@iterable-iterator/next": "1.0.1",
     "@iterable-iterator/repeat": "0.0.1",
     "@iterable-iterator/slice": "0.0.1",
     "@iterable-iterator/zip": "0.0.2",
