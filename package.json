@@ -61,7 +61,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@iterable-iterator/iter": "^0.0.2",
+    "@iterable-iterator/iter": "^1.0.0",
     "@iterable-iterator/range": "^1.0.0"
   },
   "devDependencies": {
