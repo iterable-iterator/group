@@ -1505,7 +1505,12 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/range/-/range-2.0.0.tgz#7cb75cecb09621821e4c710ac785ef4159d75216"
   integrity sha512-FuGfd6oCyoZ+d47kJP9c492//qsNVOFIlIIe20aJA2jPQYjae+LhWkdS5h8c7z4zUC5jhWxamSlYBC7BIS2+TQ==
 
-"@iterable-iterator/repeat@1.0.0", "@iterable-iterator/repeat@^1.0.0":
+"@iterable-iterator/repeat@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/repeat/-/repeat-1.0.1.tgz#7724b993a80c014483c4f0d37c503ee460ac7b6d"
+  integrity sha512-xwkIHYQNvxQvA8nMYrev41iCmokXosojMpHEfME8Q8ubzEQlsYS8rSqiydgMYPu/lPg1MyYRVzWazFDAShTwtg==
+
+"@iterable-iterator/repeat@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/repeat/-/repeat-1.0.0.tgz#5ac94b179ce2abaaa7365d5e25af1f3ca8089e4a"
   integrity sha512-Dbm6uKFTyrnn1FUM2451m9FQG9YBpHabSP4gRnvygO+jqqiuLpPDEf6s/4eambTC9loRq14Dp3PG4nFXMOalKA==
