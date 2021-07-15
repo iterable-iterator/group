@@ -74,7 +74,7 @@
     "@functional-abstraction/operator": "3.0.0",
     "@iterable-iterator/count": "1.0.0",
     "@iterable-iterator/cycle": "1.0.0",
-    "@iterable-iterator/list": "1.0.0",
+    "@iterable-iterator/list": "1.0.1",
     "@iterable-iterator/map": "1.0.0",
     "@iterable-iterator/next": "2.0.0",
     "@iterable-iterator/repeat": "1.0.0",
