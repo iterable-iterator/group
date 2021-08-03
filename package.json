@@ -63,8 +63,8 @@
     "test": "ava"
   },
   "dependencies": {
-    "@iterable-iterator/iter": "^1.0.0",
-    "@iterable-iterator/range": "^2.0.0"
+    "@iterable-iterator/iter": "^1.0.1",
+    "@iterable-iterator/range": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.14.8",
