@@ -36,7 +36,7 @@ test('group', (t) => {
 
 	x(
 		(item) => {
-			return item.charCodeAt(0) - 65;
+			return item.codePointAt(0) - 65;
 		},
 		'AAAAAABBBBCCCCAABBCC',
 		[
@@ -51,7 +51,7 @@ test('group', (t) => {
 
 	x(
 		(item) => {
-			return Math.floor((item.charCodeAt(0) - 65) / 2);
+			return Math.floor((item.codePointAt(0) - 65) / 2);
 		},
 		'AAAAAABBBBCCCCAABBCC',
 		[
@@ -74,7 +74,7 @@ test('group keys', (t) => {
 
 	x(
 		(item) => {
-			return item.charCodeAt(0) - 65;
+			return item.codePointAt(0) - 65;
 		},
 		'AAAAAABBBBCCCCAABBCC',
 		list(ncycle(range(3), 2)),
@@ -82,7 +82,7 @@ test('group keys', (t) => {
 
 	x(
 		(item) => {
-			return Math.floor((item.charCodeAt(0) - 65) / 2);
+			return Math.floor((item.codePointAt(0) - 65) / 2);
 		},
 		'AAAAAABBBBCCCCAABBCC',
 		list(ncycle(range(2), 2)),
