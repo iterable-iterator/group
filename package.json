@@ -69,7 +69,7 @@
   "devDependencies": {
     "@babel/core": "7.16.7",
     "@babel/preset-env": "7.16.8",
-    "@babel/register": "7.16.8",
+    "@babel/register": "7.16.9",
     "@commitlint/cli": "16.0.2",
     "@functional-abstraction/operator": "3.0.0",
     "@iterable-iterator/count": "1.0.1",
