@@ -6,7 +6,7 @@ import {list} from '@iterable-iterator/list';
 import {count} from '@iterable-iterator/count';
 import {head} from '@iterable-iterator/slice';
 
-import {by} from '../../src/index.js';
+import {by} from '#module';
 
 test('by', (t) => {
 	const A = by(range(100), 2);

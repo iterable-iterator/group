@@ -9,7 +9,7 @@ import {ncycle} from '@iterable-iterator/cycle';
 import {next} from '@iterable-iterator/next';
 import {list} from '@iterable-iterator/list';
 
-import {group, groupby} from '../../src/index.js';
+import {group, groupby} from '#module';
 
 test('groupby is group', (t) => {
 	t.is(groupby, group);
