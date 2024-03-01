@@ -16,7 +16,7 @@ group( identity , "AAAABBBCCAABB" ) ; // [ A AAAA ] [ B BBB ] [ C CC ] [ A AA ] 
 
 [![License](https://img.shields.io/github/license/iterable-iterator/group.svg)](https://raw.githubusercontent.com/iterable-iterator/group/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/group.svg)](https://www.npmjs.org/package/@iterable-iterator/group)
-[![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/group/ci?event=push&label=tests)](https://github.com/iterable-iterator/group/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/iterable-iterator/group/ci.yml?branch=main&event=push&label=tests)](https://github.com/iterable-iterator/group/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/group.svg)](https://github.com/iterable-iterator/group/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/group.svg)](https://github.com/iterable-iterator/group/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/group.svg)](https://www.npmjs.org/package/@iterable-iterator/group)
