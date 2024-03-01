@@ -1,10 +1,10 @@
 import test from 'ava';
 
-import {range} from '@iterable-iterator/range';
-import {zip} from '@iterable-iterator/zip';
-import {list} from '@iterable-iterator/list';
 import {count} from '@iterable-iterator/count';
+import {list} from '@iterable-iterator/list';
+import {range} from '@iterable-iterator/range';
 import {head} from '@iterable-iterator/slice';
+import {zip} from '@iterable-iterator/zip';
 
 import {by} from '#module';
 

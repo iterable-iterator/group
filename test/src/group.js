@@ -1,13 +1,12 @@
 import test from 'ava';
 
 import {identity} from '@functional-abstraction/operator';
-
-import {range} from '@iterable-iterator/range';
-import {map} from '@iterable-iterator/map';
-import {repeat} from '@iterable-iterator/repeat';
 import {ncycle} from '@iterable-iterator/cycle';
-import {next} from '@iterable-iterator/next';
 import {list} from '@iterable-iterator/list';
+import {map} from '@iterable-iterator/map';
+import {next} from '@iterable-iterator/next';
+import {range} from '@iterable-iterator/range';
+import {repeat} from '@iterable-iterator/repeat';
 
 import {group, groupby} from '#module';
 
@@ -96,7 +95,6 @@ test('group for infinite sequence of something', (t) => {
 
 	t.deepEqual(k, v);
 
-	// eslint-disable-next-line no-unused-vars
 	for (const _ of range(1000)) {
 		t.deepEqual(next(g), v);
 	}
